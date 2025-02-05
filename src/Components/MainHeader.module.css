@@ -1,0 +1,29 @@
+.mainHeader {
+  margin: 0 auto;
+  border: 2px solid red;
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userIcon {
+  height: 70px;
+}
+
+.imageSection {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  width: 500px;
+  height: 240px;
+}
+
+.foodCarousel {
+  width: 250px;
+  height: auto;
+  max-width: 100%;
+}
