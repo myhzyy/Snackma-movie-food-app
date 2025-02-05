@@ -2,6 +2,7 @@ import styles from "./MainHeader.module.css";
 import userIcon from "../assets/userIcon.png";
 import headerTabBar from "../assets/tabBar.png";
 import cinemaFood from "../assets/cinemaFoodImage1.jpeg";
+import FoodSelector from "./FoodSelector";
 
 function MainHeader() {
   return (
@@ -23,10 +24,16 @@ function MainHeader() {
           alt="Food carousel"
         />
 
-        <button className={styles.arrow} id={styles.leftArrow}>
-          &#9664;
+        <button className={styles.arrow} id={styles.rightArrow}>
+          &#9654;
         </button>
       </div>
+
+      <div className={styles.imageSectionText}>
+        {/* <h1>What are you hungry for?</h1> */}
+      </div>
+
+      <FoodSelector />
     </>
   );
 }
