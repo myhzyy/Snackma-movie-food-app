@@ -1,0 +1,35 @@
+.mainContainer {
+  margin-top: 30px;
+  font-size: 10px;
+  /* border: 2px solid red; */
+}
+
+.cinemaBox {
+  text-align: center;
+  padding: 10px;
+  background-color: gainsboro;
+  border-radius: 5px;
+  width: 200px;
+  margin: 0 auto;
+  /* color: grey; */
+  color: black;
+  font-weight: 400;
+}
+
+.locationHeader {
+  margin: 0 auto;
+  display: flex;
+  width: 250px;
+  transform: translateX(-15px);
+}
+
+img {
+  height: 45px;
+}
+
+.signInBox {
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  border: 2px solid red;
+}

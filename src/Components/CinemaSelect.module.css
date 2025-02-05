@@ -1,0 +1,75 @@
+.dropdown {
+  width: 500px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown button {
+  background-color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  width: 165px;
+}
+
+.dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.dropdown:hover button {
+  background-color: white;
+}
+
+.dropdown a:hover {
+  background-color: #ddf2d1;
+}
+
+.middleSection {
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 250px;
+}
+
+.cinemaButton {
+  border-radius: 8px;
+  width: 200px;
+  text-align: start;
+  position: relative;
+}
+.cinemaButton::after {
+  content: " ▼";
+  position: absolute;
+  text-align: end;
+  font-size: 14px;
+  right: 10px;
+}
+
+.text-overlay {
+  background-image: url("../assets/backgroundTriangle.png");
+  background-size: cover; /* Makes image cover the div */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Ensure text is readable */
+  font-size: 24px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional for better visibility */
+}
