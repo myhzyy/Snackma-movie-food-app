@@ -31,5 +31,50 @@ img {
   margin: 0 auto;
   width: 500px;
   height: 300px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+}
+
+.image {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 220px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.inboxBoxText {
+  display: flex;
+  justify-content: center;
+  /* margin: 0 auto; */
+  width: 150px;
+}
+
+.submitFormButton {
+  margin-top: 15px;
+  width: 100px;
+  padding: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  background-color: orange;
+  color: white;
 }

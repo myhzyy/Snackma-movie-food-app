@@ -1,5 +1,6 @@
 import styles from "./SignIn.module.css";
 import locationPin from "../assets/locationPin.png";
+import userIcon from "../assets/userIcon.png";
 
 function SignIn() {
   return (
@@ -10,7 +11,25 @@ function SignIn() {
       </div>
 
       <div className={styles.signInBox}>
-        <img src="" alt="signInImage" />
+        <div className={styles.image}>
+          <img className={styles.userIcon} src={userIcon} alt="signInImage" />
+        </div>
+
+        <form className={styles.form}>
+          <h2 className={styles.inboxBoxText}>Username</h2>
+          <input
+            className={styles.inputBox}
+            type="text"
+            placeholder="Type username here..."
+          />
+          <h2 className={styles.inboxBoxText}>Password</h2>
+          <input
+            className={styles.inputBox}
+            type="password"
+            placeholder="Type username here..."
+          />
+          <button className={styles.submitFormButton}>Sign In</button>
+        </form>
       </div>
     </div>
   );
