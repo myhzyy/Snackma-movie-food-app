@@ -6,17 +6,17 @@ import cinemaVeganFood from "../assets/cinemaVeganFood.jpg";
 function FoodSelector() {
   return (
     <div className={styles.mainContainer}>
-      <div>
+      <div className={styles.imageBox}>
         <img className={styles.image} src={cinemaFood} alt="popcorn" />
-        <h1>Food</h1>
+        <h1 className={styles.imageText}>Food</h1>
       </div>
-      <div>
+      <div className={styles.imageBox}>
         <img className={styles.image} src={cinemaDrink} alt="popcorn" />
-        <h1>Drinks</h1>
+        <h1 className={styles.imageText}>Drinks</h1>
       </div>
-      <div>
+      <div className={styles.imageBox}>
         <img className={styles.image} src={cinemaVeganFood} alt="popcorn" />
-        <h1>Vegan</h1>
+        <h1 className={styles.imageText}>Vegan</h1>
       </div>
     </div>
   );

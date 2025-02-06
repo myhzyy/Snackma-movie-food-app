@@ -1,0 +1,51 @@
+.menu {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+.buttonContainer {
+  width: 100%;
+  height: 40px;
+  /* border: 2px solid red; */
+}
+
+.boxes {
+  width: 90px;
+  font-size: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  /* border: 2px solid red; */
+}
+
+.boxContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  /* border: 2px solid red; */
+  height: 20px;
+}
+
+.searchBar {
+  display: flex;
+  text-align: center;
+  width: 400px;
+  height: 20px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+.inputBox {
+  border: 2px solid black;
+  text-align: center;
+  width: 400px;
+}
+
+.buttonBox {
+  border: 2px solid black;
+}

@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import SignIn from "./Components/SignIn";
 import CinemaSelect from "./Components/CinemaSelect";
 import MainHeader from "./Components/MainHeader";
+import Menu from "./Components/Menu";
 
 function App() {
   const [count, setCount] = useState(true);
@@ -17,6 +18,7 @@ function App() {
         {/* {count && <CinemaSelect />} */}
         {/* <SignIn /> */}
         <MainHeader />
+        <Menu />
       </div>
     </>
   );

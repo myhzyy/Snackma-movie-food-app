@@ -1,15 +1,36 @@
 .mainContainer {
-  height: 300px;
+  height: 200px;
+  width: 100%;
   align-items: center;
   background-color: white;
   display: flex;
   justify-content: space-around;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .image {
-  width: 100px; /* Set a fixed width */
-  height: 100px; /* Set a fixed height */
-  object-fit: cover; /* Ensures the image fills the box without distortion */
-  border-radius: 50px; /* Optional: Adds rounded corners */
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.innerBox {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  background-color: rgb(14, 12, 12);
+}
+
+.imageBox {
+  background-color: white;
+}
+
+.imageText {
+  margin: 0;
+  margin-top: 6px;
+  background-color: white;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
 }
