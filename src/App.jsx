@@ -16,9 +16,9 @@ function App() {
       <div className="appContainer">
         <Header />
         {/* {count && <CinemaSelect />} */}
-        {/* <SignIn /> */}
-        <MainHeader />
-        <Menu />
+        <SignIn />
+        {/* <MainHeader /> */}
+        {/* <Menu /> */}
       </div>
     </>
   );
